@@ -2,7 +2,7 @@ import React from 'react';
 
 // This imports the functional component from the previous sample.
 import VideoJS from './components/VideoJS'
-import videojs from 'video.js';
+import videojs from 'video.js';  
 
 const App = () => {
   const playerRef = React.useRef(null);
@@ -13,7 +13,7 @@ const App = () => {
     responsive: true,
     fluid: true,
     sources: [{
-      src: '//vjs.zencdn.net/v/oceans.mp4',
+      src: "SampleVideos/Video1.mp4",
       type: 'video/mp4'
     }]
   };
